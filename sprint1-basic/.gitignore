@@ -1,0 +1,17 @@
+# Compiled binaries
+main
+*.out
+*.o
+*.exe
+
+# Debug / Build dirs
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
