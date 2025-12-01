@@ -13,7 +13,7 @@ double PID::compute(double setpoint, double v, double dt)
 
     double u = kp*error + ki*integral + kd*derivative;
 
-    // 课程要求示例：u 最大 500 N
+    // Course Requirement Example: u Maximum 500 N
     if (u > 500) u = 500;
     if (u < 0) u = 0;
 
