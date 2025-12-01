@@ -39,7 +39,7 @@ int main()
     double sim_time = 120.0;
     double v = 0.0;
 
-    double target_speed = 20.0;  // [m/s]
+    double target_speed = 10.0;  // [m/s]
     
     // Performance Benchmark
     // Sprint 3 Benchmark
